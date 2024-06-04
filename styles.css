@@ -1,0 +1,25 @@
+/* Styles for screens larger than 767px */
+@media (min-width: 768px) {
+    .products-grid .item .image-wrapper .button-wrapper .btn.outstock-btn {
+        width: auto !important;
+        padding: 5px 10px;
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+    }
+}
+
+/* Styles for screens up to 767px */
+@media (max-width: 767px) {
+    .products-grid .item .image-wrapper .button-wrapper .btn.outstock-btn {
+        width: auto !important;
+        max-width: 100%;
+        padding: 5px 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+    }
+}
